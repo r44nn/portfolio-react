@@ -1,0 +1,114 @@
+.tentang {
+    padding-inline: 10vw;
+    height: 50vh;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 50px;
+}
+
+.kolom {
+    display: flex;
+    width: 50%;
+}
+
+.teks-tengah {
+    text-align: center;
+    margin-bottom: 5em;
+}
+
+.teks-tengah h1{
+    font-weight:700;
+    color: var(--text-color-third);
+}
+
+.skills-top h3  {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.tentang-info {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    padding-inline: 15px;
+    width: 100%;
+    background: var( --color-white);
+    box-shadow: 2px 10px 15px 2px var(--first-shadow-color);
+    border-radius: 20px;
+}
+
+.tentang-info p {
+    text-align: center;
+    font-size: 15px;
+    color: #888;
+}
+.tentang-info h3 {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.skills-top {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    padding-inline: 15px;
+    width: 100%;
+    background: var( --color-white);
+    box-shadow: 2px 10px 15px 2px var(--first-shadow-color);
+    border-radius: 20px;
+}
+.judul h3 {
+    font-weight: 600;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.list span {
+    font-size: 15px;
+    background: var(--text-color-third);
+    color: var(  --color-white);
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .tentang {
+        height: auto; 
+        padding-inline: 5vw;
+    }
+
+    .row {
+        flex-direction: column; 
+        gap: 20px; 
+    }
+
+    .kolom {
+        width: 100%; 
+    }
+
+    .teks-tengah {
+        margin-bottom: 3em; 
+    }
+
+    .skills-top h3, .tentang-info h3, .judul h3 {
+        font-size: 18px; 
+    }
+
+    .tentang-info, .skills-top {
+        padding: 20px; 
+        padding-inline: 10px;
+    }
+}
+
