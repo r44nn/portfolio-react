@@ -14,9 +14,12 @@ This project is a minimal setup to build a portfolio using React and Vite. It is
 1. Clone the repository:
    ```bash
    git clone https://github.com/r44nn/portfolio-react.git
-2. cd portfolio-react
-3. npm install
-4. npm run dev
+2. ```bash
+   cd portfolio-react
+3. ```bash
+   npm install
+4. ```bash
+   npm run dev
 
 
 
