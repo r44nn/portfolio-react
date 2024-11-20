@@ -24,6 +24,6 @@ Ikuti langkah-langkah sederhana di bawah ini.
    ```bash
    npm install
 
-4. Start Development Server 🚀
+4. Start 🚀
    ```bash
    npm run dev
